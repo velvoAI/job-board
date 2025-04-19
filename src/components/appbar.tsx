@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Appbar() {
   return (
     <div className="flex items-center justify-between px-26 py-8  z-5 backdrop-blur-xs fixed w-screen   ">
