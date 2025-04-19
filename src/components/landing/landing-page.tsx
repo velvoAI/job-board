@@ -1,4 +1,4 @@
-import Appbar from "../Appbar";
+import Appbar from "../appbar";
 import Hero from "../hero";
 
 export default function LandingPage() {
