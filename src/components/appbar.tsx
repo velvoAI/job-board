@@ -1,14 +1,14 @@
 import Image from "next/image";
-import { Button } from "./ui/button";
 
 export default function Appbar() {
   return (
-    <div className=" flex items-center justify-between  p-6">
-      <div>
-        <Image src={"/logo.png"} alt="logo" width={100} height={100} />
-      </div>
-      <div>
-        <Button children={"signin"} />
+    <div className="flex items-center justify-between px-26 py-8  z-5 backdrop-blur-xs fixed w-screen   ">
+      <div className=" cursor-pointer">Velvo Jobs</div>
+      <div className=" flex items-center gap-6 cursor-pointer font-medium ">
+        <div>Home</div>
+        <div>Jobs</div>
+        <div>About Us</div>
+        <div>Join Community</div>
       </div>
     </div>
   );
